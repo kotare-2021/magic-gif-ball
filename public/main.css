@@ -17,10 +17,10 @@ body {
   align-items: center;
   /* height: 920px; */
   font-family: 'Cinzel', serif;
+  color: #b683db;
 }
 
 .title {
-  color: #b683db;
   margin: 10px;
   font-size: 1.5em;
 }
@@ -31,8 +31,9 @@ body {
   width: 500px;
   /* border: 0.5px solid #719FB0; */
   border-radius: 100%;
-   background: radial-gradient(circle at 50% 120%, #719FB0, #012633 80%, #000000 100%);
-  
+  background: radial-gradient(circle at 50% 120%, #719FB0, #012633 80%, #000000 100%);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .app-container:before {
@@ -89,5 +90,11 @@ body {
   margin: 0;
 }
 
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
 
 /*   */
