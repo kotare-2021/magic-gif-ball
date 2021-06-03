@@ -1,6 +1,13 @@
 body {
   font-size: 18px;
-  background-color: #351F39;
+  background-color: #350B40;
   color: #719FB0;
   display: flex;
+  justify-content: center;
+}
+
+.test {
+  font-weight: bold;
+  font-family: 'Spirax', cursive;
+  align-items: center;
 }
