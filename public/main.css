@@ -9,14 +9,14 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
+  
 }
 
 .base {
   font-weight: bold;
-  font-family: 'Spirax', cursive;
   align-items: center;
   /* height: 920px; */
-
+  font-family: 'Cinzel', serif;
 }
 
 .title {
