@@ -66,7 +66,7 @@ body {
 }
 
 .app_inner {
-  background-color: #002533;
+  /* background-color: #002533; */
   height: 30%;
   width: 30%;
   border: 0.4px solid rgba(126, 126, 250, 0.76);
@@ -75,7 +75,12 @@ body {
   margin-left: auto;
   margin-right: auto;
   top: 25%;
-  background-image: url("/Triangle.png");
+  /* background-image: url("/Images/Triangle.png"); */
+}
+
+.inner-image {
+  display: block;
+  width: 100%
 }
 
 /* .app_inner_image {
