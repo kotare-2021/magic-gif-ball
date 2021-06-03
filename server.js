@@ -1,3 +1,27 @@
+// const { Router } = require('express')
+// const express = require('express')
+// const hbs = require('express-handlebars')
+// const fs = require('fs')
+
+// const server = express()
+// const router = express.Router()
+
+// // Server configuration
+// server.use(express.static('public'))
+// server.use(express.urlencoded({ extended: false }))
+
+// // Handlebars configuration
+// server.engine('hbs', hbs({ extname: 'hbs' }))
+// server.set('view engine', 'hbs')
+
+// // Your routes/router(s) should go here
+
+// router.get('/', (req, res) => {
+//    res.send('<h1>CRABS<h1>')
+//   })
+
+//   module.exports = server
+
 const express = require('express')
 const hbs = require('express-handlebars')
 const fs = require('fs')
@@ -14,3 +38,9 @@ server.engine('hbs', hbs({ extname: 'hbs' }))
 server.set('view engine', 'hbs')
 
 // Your routes/router(s) should go here
+
+server.use('/', routes)
+
+
+
+module.exports = server
