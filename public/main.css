@@ -1,8 +1,8 @@
 body {
   font-size: 18px;
   /* background-color: #350B40; */
-  background-image: radial-gradient(rgb(47, 0, 255) 5%, green 15%, rgb(19, 19, 119) 60%);
-  background-color: rgb(19, 19, 199);
+  /* background-image: radial-gradient(rgb(47, 0, 255) 5%, green 15%, rgb(19, 19, 119) 60%); */
+  background-color: #1f0035;
   background-repeat: no-repeat;
   background-size: auto;
   color: #350B40;
@@ -15,16 +15,14 @@ body {
   font-weight: bold;
   font-family: 'Spirax', cursive;
   align-items: center;
-  height: 920px;
+  /* height: 920px; */
 
 }
 
 .title {
-  background-color: #719FB0;
-}
-
-.input-field {
-  background-color: #719FB0;
+  color: #b683db;
+  margin: 10px;
+  font-size: 1.5em;
 }
 
 .app-container {
@@ -45,7 +43,7 @@ body {
   top: 40%;
   left: 5%;
   opacity: 0.6;
-  height: 100%;
+  height: 35%;
   width: 90%;
   filter: blur(5px);
   z-index: -1;
@@ -66,10 +64,10 @@ body {
 }
 
 .app_inner {
-  /* background-color: #002533; */
+  background-color: #000000;
   height: 30%;
   width: 30%;
-  border: 0.4px solid rgba(126, 126, 250, 0.76);
+  border: 0.4px solid #b683db;
   border-radius: 100%;
   position: relative;
   margin-left: auto;
@@ -80,20 +78,16 @@ body {
 
 .inner-image {
   display: block;
-  width: 100%
+  width: 95%
 }
 
-/* .app_inner_image {
-  background-color: #ffffff;
-  height: 100%;
-  width: 100%;
-  border: 0.4px solid rgba(126, 126, 250, 0.76);
-  border-radius: 100%;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-} */
+.form {
+  margin: 10%
+}
 
+.form_item {
+  margin: 0;
+}
 
 
 /*   */
