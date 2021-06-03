@@ -23,7 +23,7 @@ router.post('/', (req, res) => {
   console.log('test')
   var index = randomInt(data.ballAnswers.length)
   req.session.image = data.ballAnswers[index]
-  console.log(image)
+  console.log(req.session.image)
   res.redirect('/home/result/')
 })
 
