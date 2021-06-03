@@ -8,15 +8,15 @@ test('test suite is working', () => {
 })
 
 test('/ renders correctly', (done) => {
-    expect.assertions(1)
-    // const expected = 'some txt'
+    expect.assertions(2)
+    const expected = 'What is your your question'
   
     request(server)
     .get('/')
     .end((err, response) => {
       expect(err).toBeNull()
-    //   const actual = response.text
-    //   expect(actual).toContain(expected)
+      const actual = response.text
+      expect(actual).toContain(expected)
       done()
     })
   })
