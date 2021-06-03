@@ -74,6 +74,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   top: 25%;
+  visibility: visible;
   /* background-image: url("/Images/Triangle.png"); */
 }
 
@@ -95,6 +96,11 @@ body {
   bottom: 0;
   width: 100%;
   text-align: center;
+}
+
+.app-container_image {
+  max-width: 90%;
+  max-height: 90%;
 }
 
 /*   */
