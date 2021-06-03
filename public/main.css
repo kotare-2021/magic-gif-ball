@@ -2,6 +2,7 @@ body {
   font-size: 18px;
   /* background-color: #350B40; */
   background-image: radial-gradient(rgb(47, 0, 255) 5%, green 15%, rgb(19, 19, 119) 60%);
+  background-color: rgb(19, 19, 199);
   background-repeat: no-repeat;
   background-size: auto;
   color: #350B40;
@@ -14,7 +15,7 @@ body {
   font-weight: bold;
   font-family: 'Spirax', cursive;
   align-items: center;
-  height: 800px;
+  height: 920px;
 }
 
 .title {
@@ -60,11 +61,16 @@ body {
   transform: translateX(-80px) translateY(-90px) skewX(
 -20deg
 );
-
   filter: blur(50px);
+}
 
 .app_inner {
   background-color: #719FB0;
+  height: 30%;
+  width: 30%;
+  border-radius: 100%;
+  position: relative;
+
 }
 
 .app_inner_image {
