@@ -20,5 +20,3 @@ test('/ renders correctly', (done) => {
       done()
     })
   })
-
-//   test()
