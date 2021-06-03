@@ -7,4 +7,8 @@ router.get('', (req, res) => {
   res.send('<h1>TEST<h1>')
 })
 
+router.get('/testPage', (req, res) => {
+  res.sendFile(__dirname + '/testPage.html')
+})
+
 module.exports = router
