@@ -22,7 +22,7 @@ server.set('view engine', 'hbs')
 
 // Your routes/router(s) should go here
 
-server.use('/home', routes)
+server.use('/', routes)
 
 
 
