@@ -16,6 +16,7 @@ body {
   font-family: 'Spirax', cursive;
   align-items: center;
   height: 920px;
+
 }
 
 .title {
@@ -65,17 +66,28 @@ body {
 }
 
 .app_inner {
-  background-color: #719FB0;
+  background-color: #002533;
   height: 30%;
   width: 30%;
+  border: 0.4px solid rgba(126, 126, 250, 0.76);
   border-radius: 100%;
   position: relative;
-
+  margin-left: auto;
+  margin-right: auto;
+  top: 25%;
+  background-image: url("/Triangle.png");
 }
 
-.app_inner_image {
-  background-color: #719FB0;
-}
+/* .app_inner_image {
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+  border: 0.4px solid rgba(126, 126, 250, 0.76);
+  border-radius: 100%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+} */
 
 
 
