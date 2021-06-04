@@ -18,12 +18,27 @@ body {
   /* height: 920px; */
   font-family: 'Cinzel', serif;
   color: #b683db;
+ 
 }
+
+
+.base h1 {
+  color: #deb7fa;
+}
+
 
 .title {
   margin: 5px;
   font-size: 2em;
+  box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
+              
 }
+
 
 .app-container {
   background-color: #719FB0;
@@ -35,6 +50,12 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
+  box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
 }
 
 .app-container:before {
@@ -86,10 +107,11 @@ body {
 
 .form {
   margin: 5px;
+  font-size: 1.5em;
 }
 
 .form_item {
-  margin: 0;
+  margin: 0.5px;
 }
 
 .footer {
@@ -109,7 +131,7 @@ body {
 .button {
   width:60px;
   height: 60px;
-  
+  font-weight: bold;
   border-radius: 50%;
   border: 2px solid rgb(234,224,245);
   background-color: rgb(172,107,213);
