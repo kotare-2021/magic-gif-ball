@@ -18,7 +18,7 @@ body {
   /* height: 920px; */
   font-family: 'Cinzel', serif;
   color: #b683db;
- 
+  width: 100%;
 }
 
 
@@ -117,10 +117,13 @@ body {
 }
 
 .footer {
-  position: relative;
-  margin-top: 10%;
-  width: 100%;
-  text-align: center;
+  bottom : 2px;  
+   height : 40px;  
+   margin-top : 40px;  
+   text-align: center;  
+   vertical-align: middle; 
+   position:fixed;
+   width:100%;
 }
 
 .app-container_image {
@@ -168,5 +171,15 @@ body {
   flex-shrink: 2;
   margin-left: 5%;
 }
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .app-container {
+    width: 250px;
+    height: 250px;
+  }
+}
+
 
 /* Need to add media queries to stop the light spots repositioning  */
