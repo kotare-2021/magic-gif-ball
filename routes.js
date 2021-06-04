@@ -1,11 +1,8 @@
-const fs = require('fs')
 const express = require('express')
 const data = require(__dirname+'/data.json')
 const randomInt = require('./randomInt.js')
 
 const router = express.Router()
-
-var image = {}
 
 router.get('/', (req, res) => {
   res.render('input')
@@ -24,7 +21,6 @@ router.post('/', (req, res) => {
   var index = randomInt(data.ballAnswers.length)
   req.session.image = data.ballAnswers[index]
   req.session.image.username = name
-  console.log(req.session.image)
   res.redirect('/home/')
 })
 
