@@ -3,6 +3,7 @@ const express = require('express')
 const hbs = require('express-handlebars')
 const routes = require(__dirname + '/routes.js')
 const session = require('express-session')
+const fs = require('fs')
 
 const server = express()
 
@@ -24,5 +25,10 @@ server.set('view engine', 'hbs')
 server.use('/', routes)
 
 
+
+module.exports = server
+server.get('/', (req, res) => {
+    res.send('<h1>TEST</h1>')
+})
 
 module.exports = server
