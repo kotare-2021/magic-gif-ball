@@ -18,12 +18,13 @@ body {
   /* height: 920px; */
   font-family: 'Cinzel', serif;
   color: #b683db;
- 
+  width: 100%;
 }
 
 
-.base h1 {
+.base h1, a {
   color: #deb7fa;
+  padding: 20px;
 }
 
 
@@ -62,14 +63,14 @@ body {
 .app-container:before {
   content: "";
   position: absolute;
-  background: radial-gradient(circle at 50% 120%, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0) 70%);
+  background: radial-gradient(circle at 50% -20%, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0) 95%);
   border-radius: 50%;
-  top: 40%;
+  top: 70%;
   left: 5%;
   opacity: 0.6;
   height: 35%;
   width: 90%;
-  filter: blur(5px);
+  filter: blur(30px);
   z-index: -1;
 }
 .app-container:after {
@@ -80,7 +81,7 @@ body {
   top: 40%;
   left: 10%;
   border-radius: 50%;
-  background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8) 14%, rgba(255, 255, 255, 0) 24%);
+  background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8) 14%, rgba(255, 255, 255, 0) 2%);
   transform: translateX(-80px) translateY(-90px) skewX(
 -20deg
 );
@@ -116,10 +117,13 @@ body {
 }
 
 .footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
+  bottom : 2px;  
+   height : 40px;  
+   margin-top : 40px;  
+   text-align: center;  
+   vertical-align: middle; 
+   position:fixed;
+   width:100%;
 }
 
 .app-container_image {
@@ -127,6 +131,14 @@ body {
   max-height: 90%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5%;
+  margin-bottom: 5%;
+  box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #40b9e6, 
+              0 0 0.8rem #40b9e6,
+              0 0 2.8rem #40b9e6,
+              inset 0 0 1.3rem #40b9e6;
 }
 
 .button {
@@ -139,4 +151,15 @@ body {
   color: rgb(61,0,99)
 }
 
-/*   */
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .app-container {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+
+/* Need to add media queries to stop the light spots repositioning  */
