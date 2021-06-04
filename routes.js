@@ -23,13 +23,6 @@ router.post('/', (req, res) => {
 
 
 
-
-
-
-
-
-
-
 //can we use the input.hbs for the landing page which now includes a form asking what the users name is
 
 module.exports = router

@@ -17,12 +17,12 @@ body {
   align-items: center;
   /* height: 920px; */
   font-family: 'Cinzel', serif;
+  color: #b683db;
 }
 
 .title {
-  color: #b683db;
-  margin: 10px;
-  font-size: 1.5em;
+  margin: 5px;
+  font-size: 2em;
 }
 
 .app-container {
@@ -31,8 +31,10 @@ body {
   width: 500px;
   /* border: 0.5px solid #719FB0; */
   border-radius: 100%;
-   background: radial-gradient(circle at 50% 120%, #719FB0, #012633 80%, #000000 100%);
-  
+  background: radial-gradient(circle at 50% 120%, #719FB0, #012633 80%, #000000 100%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
 }
 
 .app-container:before {
@@ -73,6 +75,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   top: 25%;
+  visibility: visible;
   /* background-image: url("/Images/Triangle.png"); */
 }
 
@@ -82,12 +85,35 @@ body {
 }
 
 .form {
-  margin: 10%
+  margin: 5px;
 }
 
 .form_item {
   margin: 0;
 }
 
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.app-container_image {
+  max-width: 90%;
+  max-height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  width:60px;
+  height: 60px;
+  
+  border-radius: 50%;
+  border: 2px solid rgb(234,224,245);
+  background-color: rgb(172,107,213);
+  color: rgb(61,0,99)
+}
 
 /*   */

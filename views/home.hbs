@@ -1,23 +1,12 @@
-<div class = "title"> 
-    <h1>Welcome to <strong>The Magic Gif Ball!</strong></h1>
-</div>
-
+{{> title}}
 <form class="form" method="post">
     <label for="question" class="form-item">
         What is your your question?:
         <input type="text" name="question">
-        <input type="submit" name="" value="Submit">
+        <input type="submit" name="" value="Submit" class="button">
     </label>
 </form>
 <div class="app-container">
     <div class="app_inner">
         <img src="/Images/Triangle.png" alt="" class="inner-image">
-    </div>
-        {{#if id}}
-        <figure>
-        <img src = "{{gif}}" alt= "{{name}}" class="app-container_image">
-        <figcaption>{{answer}}</figcaption>
-        </figure>
-        {{/if}}
-</div>
 <footer class="footer">&copy; The Crabs 2021</footer>
