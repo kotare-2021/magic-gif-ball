@@ -9,6 +9,10 @@ router.get('/', (req, res) => {
 })
 
 router.get('/home', (req, res) => {
+  var name = req.session.image.username
+  var index = randomInt(data.ballAnswers.length)
+  req.session.image = data.ballAnswers[index]
+  req.session.image.username = name
   res.render('home', req.session.image)
 })
 
