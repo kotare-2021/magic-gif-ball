@@ -148,4 +148,25 @@ body {
   color: rgb(61,0,99)
 }
 
+.crab-1 {
+  /* float: left; */
+  opacity: 70%;
+  margin: 4px;
+}
+
+.crab-2 {
+  opacity: 70%;
+  margin: 2px;
+}
+
+.home-image {
+  /* width: 90%; */
+  margin-top: 7%;
+  height: auto;
+  position: fixed;
+  z-index: -1;
+  flex-shrink: 2;
+  margin-left: 5%;
+}
+
 /* Need to add media queries to stop the light spots repositioning  */
