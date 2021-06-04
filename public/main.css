@@ -46,13 +46,13 @@ body {
   width: 500px;
   /* border: 0.5px solid #719FB0; */
   border-radius: 100%;
-  background: radial-gradient(circle at 50% 120%, #719FB0, #012633 80%, #000000 100%);
+  background: radial-gradient(circle at 50% 120%, #40b9e6, #00080a 80%, #000000 100%);
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
   box-shadow: 0 0 .2rem #fff,
               0 0 .2rem #fff,
-              0 0 2rem #bc13fe,
+              0 0 2rem #bc13fe, 
               0 0 0.8rem #bc13fe,
               0 0 2.8rem #bc13fe,
               inset 0 0 1.3rem #bc13fe;
