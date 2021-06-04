@@ -21,8 +21,8 @@ body {
 }
 
 .title {
-  margin: 10px;
-  font-size: 1.5em;
+  margin: 5px;
+  font-size: 2em;
 }
 
 .app-container {
@@ -34,6 +34,7 @@ body {
   background: radial-gradient(circle at 50% 120%, #719FB0, #012633 80%, #000000 100%);
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5%;
 }
 
 .app-container:before {
@@ -84,7 +85,7 @@ body {
 }
 
 .form {
-  margin: 10%
+  margin: 5px;
 }
 
 .form_item {
@@ -101,6 +102,18 @@ body {
 .app-container_image {
   max-width: 90%;
   max-height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  width:60px;
+  height: 60px;
+  
+  border-radius: 50%;
+  border: 2px solid rgb(234,224,245);
+  background-color: rgb(172,107,213);
+  color: rgb(61,0,99)
 }
 
 /*   */
