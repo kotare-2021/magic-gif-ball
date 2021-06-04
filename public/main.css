@@ -151,16 +151,9 @@ body {
   color: rgb(61,0,99)
 }
 
-.crab-1 {
-  /* float: left; */
+/* .crab-1, .crab-2 {
   opacity: 70%;
-  margin: 4px;
-}
-
-.crab-2 {
-  opacity: 70%;
-  margin: 2px;
-}
+} */
 
 .home-image {
   /* width: 90%; */
@@ -169,7 +162,7 @@ body {
   position: fixed;
   z-index: -1;
   flex-shrink: 2;
-  margin-left: 5%;
+  width: 100%;
 }
 @media only screen and (max-width: 600px) {
   .title {
