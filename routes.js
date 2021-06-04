@@ -24,7 +24,7 @@ router.post('/', (req, res) => {
   var name = req.body.name
   var index = randomInt(data.ballAnswers.length)
   req.session.image = data.ballAnswers[index]
-  req.session.image.answer += ' ' + name
+  req.session.image.username = name
   console.log(req.session.image)
   res.redirect('/home/')
 })
