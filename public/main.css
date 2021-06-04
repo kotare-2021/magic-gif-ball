@@ -1,0 +1,142 @@
+body {
+  font-size: 18px;
+  /* background-color: #350B40; */
+  /* background-image: radial-gradient(rgb(47, 0, 255) 5%, green 15%, rgb(19, 19, 119) 60%); */
+  background-color: #1f0035;
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: #350B40;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.base {
+  font-weight: bold;
+  align-items: center;
+  /* height: 920px; */
+  font-family: 'Cinzel', serif;
+  color: #b683db;
+ 
+}
+
+
+.base h1 {
+  color: #deb7fa;
+}
+
+
+.title {
+  margin: 5px;
+  font-size: 2em;
+  box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
+              
+}
+
+
+.app-container {
+  background-color: #719FB0;
+  height: 500px;
+  width: 500px;
+  /* border: 0.5px solid #719FB0; */
+  border-radius: 100%;
+  background: radial-gradient(circle at 50% 120%, #719FB0, #012633 80%, #000000 100%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
+}
+
+
+.app-container:before {
+  content: "";
+  position: absolute;
+  background: radial-gradient(circle at 50% 120%, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0) 70%);
+  border-radius: 50%;
+  top: 40%;
+  left: 5%;
+  opacity: 0.6;
+  height: 35%;
+  width: 90%;
+  filter: blur(5px);
+  z-index: -1;
+}
+.app-container:after {
+  content: "";
+  width: 70%;
+  height: 30%;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8) 14%, rgba(255, 255, 255, 0) 24%);
+  transform: translateX(-80px) translateY(-90px) skewX(
+-20deg
+);
+  filter: blur(50px);
+}
+
+.app_inner {
+  background-color: #000000;
+  height: 30%;
+  width: 30%;
+  border: 0.4px solid #b683db;
+  border-radius: 100%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 25%;
+  visibility: visible;
+  /* background-image: url("/Images/Triangle.png"); */
+}
+
+.inner-image {
+  display: block;
+  width: 95%
+}
+
+.form {
+  margin: 5px;
+  font-size: 1.5em;
+}
+
+.form_item {
+  margin: 0.5px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.app-container_image {
+  max-width: 90%;
+  max-height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  width:60px;
+  height: 60px;
+  font-weight: bold;
+  border-radius: 50%;
+  border: 2px solid rgb(234,224,245);
+  background-color: rgb(172,107,213);
+  color: rgb(61,0,99)
+}
+
+/*   */

@@ -1,0 +1,93 @@
+{
+    "ballAnswers": [
+      {
+        "id": 1,
+        "name": "Supa hot",
+        "gif": "https://media.giphy.com/media/kYsBThMhhalLG/giphy.gif",
+        "answer": "Without a doubt"        
+      },
+
+      {
+        "id": 2,
+        "name": "Blink guy",
+        "gif": "https://media.giphy.com/media/RILsqUte1MME7TzQJ9/giphy.gif",
+        "answer": "Um… could you ask me again?"    
+      },
+
+      {
+        "id": 3,
+        "name": "Homer",
+        "gif": "https://media.giphy.com/media/a93jwI0wkWTQs/giphy.gif",
+        "answer": "Cannot Foretell right Now" 
+      },
+
+      {
+        "id": 4,
+        "name": "Michale Scott",
+        "gif": "https://media4.giphy.com/media/12XMGIWtrHBl5e/giphy.gif?cid=790b7611bcb6217311b7931cf1dd63df2cf46af8a746c412&rid=giphy.gif&ct=g",
+        "answer": "NOOOOOOOO" 
+      },
+
+      {
+        "id": 5,
+        "name": "Kanye",
+        "gif": "https://media.giphy.com/media/LKqDgLlK6SuIM/giphy.gif",
+        "answer": "hahahah No"
+        
+      },
+
+      {
+        "id": 6,
+        "name": "Oprah",
+        "gif": "https://media.giphy.com/media/y8Mz1yj13s3kI/giphy.gif",
+        "answer": "You get yes , you get a yes, everybody gets a yes"
+      },
+
+      {
+        "id": 7,
+        "name": "Leo",
+        "gif": "https://media.giphy.com/media/g9582DNuQppxC/giphy.gif",
+        "answer": "As I See It Yes"
+      },
+
+      {
+        "id": 8,
+        "name": "Doggo",
+        "gif": "https://media.giphy.com/media/nbMyAHO0PAVxJ5uJmG/giphy.gif",
+        "answer": "Looks Like Yes"
+      },
+
+      {
+        "id": 9,
+        "name": "Monkey",
+        "gif": "https://media.giphy.com/media/l41lVsYDBC0UVQJCE/giphy.gif",
+        "answer": "Can’t quite say"
+      },
+
+      {
+        "id": 10,
+        "name": "Computer kid",
+        "gif": "https://media.giphy.com/media/XreQmk7ETCak0/giphy.gif",
+        "answer": "I predict yes"
+      },
+
+      {
+        "id": 11,
+        "name": "OOOOOh",
+        "gif": "https://media.giphy.com/media/l0HlvtIPzPdt2usKs/giphy.gif",
+        "answer": "Chances aren’t good" 
+      },
+
+      {
+        "id": 12,
+        "name": "Winona",
+        "gif": "https://media.giphy.com/media/OYzMbsyjN0pa/giphy.gif",
+        "answer": "Cannot predict currently" 
+      }
+    ] 
+
+}
+  
+
+  
+  
