@@ -1,4 +1,2 @@
 # magic-gif-ball
-This is not made by crabs
-
-test dev branch
+First group project of EDA made by Tom. Lucas, Harriet, James.
